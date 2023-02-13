@@ -1,4 +1,4 @@
-<?php
+<?php header('Access-Control-Allow-Origin: *');
   usleep(500000);
 
   $data = [
@@ -20,3 +20,5 @@
     ];
 
   echo json_encode($data)
+
+  ?>
